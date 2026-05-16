@@ -1047,7 +1047,7 @@
     var html = '<!DOCTYPE html><html><head><meta charset="UTF-8"><style>' + styles + '</style></head><body>' +
       '<div class="rpt-wrap">' +
       '<div class="rpt-title">📊 周度汇总报告</div>' +
-      '<div class="rpt-subtitle">德曼店铺 · 阿里巴巴数据战情室</div>' +
+      '<div class="rpt-subtitle">汉鸿店铺 · 阿里巴巴数据战情室</div>' +
       '<div class="rpt-meta"><span>统计范围：' + rangeLabel + '</span><span>生成时间：' + new Date().toLocaleString('zh-CN') + '</span></div>' +
       '<div class="kpi-grid">' +
       '<div class="kpi-box"><div class="kpi-val">' + totals.totalExp.toLocaleString() + '</div><div class="kpi-lbl">总展现量</div></div>' +
@@ -1251,7 +1251,7 @@
     var html = '<!DOCTYPE html><html><head><meta charset="UTF-8"><style>' + styles + '</style></head><body>' +
       '<div class="rpt-wrap">' +
       '<div class="rpt-title">📈 月度汇总报告</div>' +
-      '<div class="rpt-subtitle">德曼店铺 · 阿里巴巴数据战情室</div>' +
+      '<div class="rpt-subtitle">汉鸿店铺 · 阿里巴巴数据战情室</div>' +
       '<div class="rpt-meta"><span>统计月份：' + (monthKeys[0] || '') + ' 至 ' + (monthKeys[monthKeys.length-1] || '') + '（共 ' + monthKeys.length + ' 个月）</span><span>生成时间：' + new Date().toLocaleString('zh-CN') + '</span></div>' +
       chartSection('月度询盘 · 接待 · 访客趋势', chart3Img) +
       chartSection('月度广告花费（柱）& ROI趋势（折线）', chart4Img) +
@@ -1452,7 +1452,7 @@
     var html = '<!DOCTYPE html><html><head><meta charset="UTF-8"><style>' + styles + extraStyles + '</style></head><body>' +
       '<div class="rpt-wrap">' +
       '<div class="rpt-title">📊 年度汇总报告（' + selectedYears.join('、') + '年）</div>' +
-      '<div class="rpt-subtitle">德曼店铺 · 阿里巴巴数据战情室</div>' +
+      '<div class="rpt-subtitle">汉鸿店铺 · 阿里巴巴数据战情室</div>' +
       '<div class="rpt-meta"><span>数据跨度：' + (monthKeys2[0] || '—') + ' 至 ' + (monthKeys2[monthKeys2.length - 1] || '—') + '</span><span>生成时间：' + new Date().toLocaleString('zh-CN') + '</span></div>' +
       '<div class="kpi-grid">' +
       '<div class="kpi-box"><div class="kpi-val">' + totalAll.inquiries + '</div><div class="kpi-lbl">累计询盘</div></div>' +
